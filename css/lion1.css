@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(18, 75, 23);
+}
+
+.lone{
+    color:gold;
+}
+.ltwo{
+    border:#000 solid 2px;
+    padding:4px;
+    text-align:center;
+    margin:100px;
+    /*يترك مسافة حوله*/
+    background:hotpink;
+}
+.lthree ,.lthreec{
+    /*شمول اكثر من كلاس بنفس الوقت*/
+    background-color:red;
+    color:darkcyan;
+    width:70px;
+    height:70px;
+    border:#486 solid 2px;
+    text-align:center;
+    line-height:70px;
+    /*توصيط عاموديا*/
+    margin:4px;
+}
+section{
+    /*هذا مو كلاس لان ماكو نقطة فاي سكشن راح تتاثر*/
+    font-size:7px;
+}
+*{
+    /*تاثير لكل شي*/
+    background-color:darkorchid;
+}

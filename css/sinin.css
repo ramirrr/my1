@@ -1,0 +1,25 @@
+#kl > .k2{
+    /*تاثير على الكلاس كي تو الي هوة بداخل الايدي كي ال*/
+    background-color:fuchsia;
+}
+#kl{
+    /*تاثير على الايدي والي يششمله كال الكلاسات البداخله*/
+    display:flex;
+    /*تاثير يرتب العناصر افقيا*/
+    flex-wrap:wrap;
+    /*يخلي العناصر على حجم الشاشة*/
+}
+.sinone{
+    background-color:darkolivegreen;
+}
+@media only screen and (min-width:768px)
+/*هذا راح يتنفذ في حالى شاشة الكمبيوتر اما اذا ماكس بدال المين يعني مبايل*/
+{
+    .sinone{
+        background-color:lightcoral;
+    }
+    #kl >.k3{
+        display:none;
+        /*في حالة الكمبيوتر مراح يطلع*/
+    }
+}

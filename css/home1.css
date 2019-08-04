@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(156, 202, 50)
+}
+
+.one{
+    color: coral;
+    text-align:right;
+}
+.two{
+    color:forestgreen;
+    text-align:right;
+}
+.three{
+    color:rgb(2, 150, 209);
+    text-align:right;
+}
+.four{
+    color:rgb(139, 0, 104);
+}
+.five{
+    color:darkblue;
+}
+.six{
+    color:darkred;
+}
+#seven{
+    /*هذا لكل البوردر بما حوى*/
+    margin-top:60px;
+    text-align:center;
+    border:darkkhaki groove 9px;
+    padding:20px;
+    margin-left:200px;
+    margin-right:200px;
+    border-radius:40px;
+    /*هذا المسؤل عن النعومة بلبوردر(المستطيل)ل*/
+    background:teal;
+}
+/*هذا التاثير راح يصير بس علصور والكتابة الجواهة*/
+#seven > .eight{
+    display:inline-block;
+    /*هذا يرتب العناصر ويخليها افقيا*/
+    margin:10px;
+}
+#seven > .eight >img{
+    /*هنا نتحكم بكل صورة داخل الكلاس الداخل الايدي*/
+    border:coral solid 4px;
+    padding:10px;
+    /*مسافة بينهم ضروري لان ورا هذا السطر راح اسويها دائرة*/
+    border-radius:100px;
+}
+#seven > .eight >p{
+    font-weight:bold;
+    color:saddlebrown;
+}
